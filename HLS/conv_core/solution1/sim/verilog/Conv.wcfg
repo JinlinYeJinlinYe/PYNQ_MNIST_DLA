@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Conv.wdb" id="1">
+         <top_modules>
+            <top_module name="apatb_Conv_top" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+   </zoom_setting>
+   <column_width_setting>
+   </column_width_setting>
+   <WVObjectSize size="2" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">Design Top Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group3" type="group">
+            <obj_property name="label">feature_in__W__bias__feature_out(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group4" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group5" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BRESP" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WSTRB" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WDATA" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWUSER" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWREGION" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWQOS" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWPROT" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWBURST" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWLEN" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWID" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWADDR" type="array">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group6" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_BVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_RVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WLAST" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_WVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/m_axi_gmem_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">m_axi_gmem_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">m_axi_gmem_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group52" type="group">
+            <obj_property name="label">CHin__Hin__Win__CHout__Kx__Ky__Sx__Sy__mode__relu_en__feature_in__W__bias__feature_out__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/interrupt" type="logic">
+               <obj_property name="ElementShortName">interrupt</obj_property>
+               <obj_property name="ObjectShortName">interrupt</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_BRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_BREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_BREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_BVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_BVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RRESP" type="array">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_RREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_RVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_RVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_ARREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_ARVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_ARADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_ARADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_ARADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WSTRB" type="array">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WDATA" type="array">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_WREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_WVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_WVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_AWREADY" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_AWVALID" type="logic">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/s_axi_AXILiteS_AWADDR" type="array">
+               <obj_property name="ElementShortName">s_axi_AXILiteS_AWADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">s_axi_AXILiteS_AWADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group71" type="group">
+         <obj_property name="label">Block-level IO Handshake(internal)</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/ap_done" type="logic">
+            <obj_property name="ElementShortName">ap_done</obj_property>
+            <obj_property name="ObjectShortName">ap_done</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/ap_idle" type="logic">
+            <obj_property name="ElementShortName">ap_idle</obj_property>
+            <obj_property name="ObjectShortName">ap_idle</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/ap_ready" type="logic">
+            <obj_property name="ElementShortName">ap_ready</obj_property>
+            <obj_property name="ObjectShortName">ap_ready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/ap_start" type="logic">
+            <obj_property name="ElementShortName">ap_start</obj_property>
+            <obj_property name="ObjectShortName">ap_start</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group76" type="group">
+         <obj_property name="label">Reset</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/ap_rst_n" type="logic">
+            <obj_property name="ElementShortName">ap_rst_n</obj_property>
+            <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group78" type="group">
+         <obj_property name="label">Clock</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/apatb_Conv_top/AESL_inst_Conv/ap_clk" type="logic">
+            <obj_property name="ElementShortName">ap_clk</obj_property>
+            <obj_property name="ObjectShortName">ap_clk</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group80" type="group">
+      <obj_property name="label">Test Bench Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group81" type="group">
+         <obj_property name="label">Internal Signals</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group82" type="group">
+            <obj_property name="label">Simulation Status</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Conv_top/AUTOTB_TRANSACTION_NUM" type="array">
+               <obj_property name="ElementShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AUTOTB_TRANSACTION_NUM[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/ready_cnt" type="array">
+               <obj_property name="ElementShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">ready_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/done_cnt" type="array">
+               <obj_property name="ElementShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="ObjectShortName">done_cnt[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group83" type="group">
+            <obj_property name="label">Port Depth</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_gmem" type="array">
+               <obj_property name="ElementShortName">LENGTH_gmem[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_gmem[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_CHin_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_CHin_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_CHin_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_Hin_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_Hin_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_Hin_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_Win_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_Win_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_Win_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_CHout_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_CHout_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_CHout_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_Kx_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_Kx_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_Kx_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_Ky_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_Ky_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_Ky_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_Sx_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_Sx_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_Sx_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_Sy_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_Sy_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_Sy_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_mode_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_mode_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_mode_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_relu_en_V" type="array">
+               <obj_property name="ElementShortName">LENGTH_relu_en_V[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_relu_en_V[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_feature_in" type="array">
+               <obj_property name="ElementShortName">LENGTH_feature_in[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_feature_in[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_W" type="array">
+               <obj_property name="ElementShortName">LENGTH_W[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_W[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_bias" type="array">
+               <obj_property name="ElementShortName">LENGTH_bias[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_bias[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/LENGTH_feature_out" type="array">
+               <obj_property name="ElementShortName">LENGTH_feature_out[31:0]</obj_property>
+               <obj_property name="ObjectShortName">LENGTH_feature_out[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group102" type="group">
+         <obj_property name="label">C InOuts</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group103" type="group">
+            <obj_property name="label">feature_in__W__bias__feature_out(axi_master)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="group104" type="group">
+               <obj_property name="label">Read Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_Conv_top/gmem_RRESP" type="array">
+                  <obj_property name="ElementShortName">gmem_RRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_RRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_RUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_RUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_RUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_RID" type="array">
+                  <obj_property name="ElementShortName">gmem_RID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_RID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_RDATA" type="array">
+                  <obj_property name="ElementShortName">gmem_RDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_RDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_ARUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARREGION" type="array">
+                  <obj_property name="ElementShortName">gmem_ARREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARQOS" type="array">
+                  <obj_property name="ElementShortName">gmem_ARQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARPROT" type="array">
+                  <obj_property name="ElementShortName">gmem_ARPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem_ARCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem_ARLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARBURST" type="array">
+                  <obj_property name="ElementShortName">gmem_ARBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem_ARSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARLEN" type="array">
+                  <obj_property name="ElementShortName">gmem_ARLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARID" type="array">
+                  <obj_property name="ElementShortName">gmem_ARID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARADDR" type="array">
+                  <obj_property name="ElementShortName">gmem_ARADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group105" type="group">
+               <obj_property name="label">Write Channel</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_Conv_top/gmem_BUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_BUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_BUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_BID" type="array">
+                  <obj_property name="ElementShortName">gmem_BID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_BID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_BRESP" type="array">
+                  <obj_property name="ElementShortName">gmem_BRESP[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_BRESP[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_WUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_WUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_WUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_WID" type="array">
+                  <obj_property name="ElementShortName">gmem_WID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_WID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_WSTRB" type="array">
+                  <obj_property name="ElementShortName">gmem_WSTRB[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_WSTRB[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_WDATA" type="array">
+                  <obj_property name="ElementShortName">gmem_WDATA[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_WDATA[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWUSER" type="array">
+                  <obj_property name="ElementShortName">gmem_AWUSER[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWUSER[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWREGION" type="array">
+                  <obj_property name="ElementShortName">gmem_AWREGION[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWREGION[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWQOS" type="array">
+                  <obj_property name="ElementShortName">gmem_AWQOS[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWQOS[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWPROT" type="array">
+                  <obj_property name="ElementShortName">gmem_AWPROT[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWPROT[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWCACHE" type="array">
+                  <obj_property name="ElementShortName">gmem_AWCACHE[3:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWCACHE[3:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWLOCK" type="array">
+                  <obj_property name="ElementShortName">gmem_AWLOCK[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWLOCK[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWBURST" type="array">
+                  <obj_property name="ElementShortName">gmem_AWBURST[1:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWBURST[1:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWSIZE" type="array">
+                  <obj_property name="ElementShortName">gmem_AWSIZE[2:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWSIZE[2:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWLEN" type="array">
+                  <obj_property name="ElementShortName">gmem_AWLEN[7:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWLEN[7:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWID" type="array">
+                  <obj_property name="ElementShortName">gmem_AWID[0:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWID[0:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWADDR" type="array">
+                  <obj_property name="ElementShortName">gmem_AWADDR[31:0]</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWADDR[31:0]</obj_property>
+                  <obj_property name="Radix">HEXRADIX</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject fp_name="group106" type="group">
+               <obj_property name="label">Handshakes</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <wvobject fp_name="/apatb_Conv_top/gmem_BREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_BREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_BREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_BVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_BVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_BVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_RLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem_RLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem_RLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_RREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_RREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_RREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_RVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_RVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_RVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_ARREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_ARVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_ARVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_ARVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_WLAST" type="logic">
+                  <obj_property name="ElementShortName">gmem_WLAST</obj_property>
+                  <obj_property name="ObjectShortName">gmem_WLAST</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_WREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_WREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_WREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_WVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_WVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_WVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWREADY" type="logic">
+                  <obj_property name="ElementShortName">gmem_AWREADY</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWREADY</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+               <wvobject fp_name="/apatb_Conv_top/gmem_AWVALID" type="logic">
+                  <obj_property name="ElementShortName">gmem_AWVALID</obj_property>
+                  <obj_property name="ObjectShortName">gmem_AWVALID</obj_property>
+                  <obj_property name="CustomSignalColor">#ffff00</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group152" type="group">
+            <obj_property name="label">CHin__Hin__Win__CHout__Kx__Ky__Sx__Sy__mode__relu_en__feature_in__W__bias__feature_out__return(axi_slave)</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_INTERRUPT" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_INTERRUPT</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_INTERRUPT</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_BRESP" type="array">
+               <obj_property name="ElementShortName">AXILiteS_BRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_BRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_BREADY" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_BREADY</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_BREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_BVALID" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_BVALID</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_BVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_RRESP" type="array">
+               <obj_property name="ElementShortName">AXILiteS_RRESP[1:0]</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_RRESP[1:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_RDATA" type="array">
+               <obj_property name="ElementShortName">AXILiteS_RDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_RDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_RREADY" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_RREADY</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_RREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_RVALID" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_RVALID</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_RVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_ARREADY" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_ARREADY</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_ARREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_ARVALID" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_ARVALID</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_ARVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_ARADDR" type="array">
+               <obj_property name="ElementShortName">AXILiteS_ARADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_ARADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_WSTRB" type="array">
+               <obj_property name="ElementShortName">AXILiteS_WSTRB[3:0]</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_WSTRB[3:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_WDATA" type="array">
+               <obj_property name="ElementShortName">AXILiteS_WDATA[31:0]</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_WDATA[31:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_WREADY" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_WREADY</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_WREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_WVALID" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_WVALID</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_WVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_AWREADY" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_AWREADY</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_AWREADY</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_AWVALID" type="logic">
+               <obj_property name="ElementShortName">AXILiteS_AWVALID</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_AWVALID</obj_property>
+               <obj_property name="CustomSignalColor">#ffff00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject fp_name="/apatb_Conv_top/AXILiteS_AWADDR" type="array">
+               <obj_property name="ElementShortName">AXILiteS_AWADDR[6:0]</obj_property>
+               <obj_property name="ObjectShortName">AXILiteS_AWADDR[6:0]</obj_property>
+               <obj_property name="Radix">HEXRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

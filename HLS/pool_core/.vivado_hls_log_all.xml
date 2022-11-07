@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="ERROR: [IMPL 213-28] Failed to generate IP.&#xD;&#xA;command 'ap_source' returned error code&#xD;&#xA;    while executing&#xD;&#xA;&quot;source C:/Users/JinlinYE/Documents/myProject/my_project_HLS_PYNQ/pool_core/solution1/export.tcl&quot;&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls::main C:/Users/JinlinYE/Documents/myProject/my_project_HLS_PYNQ/pool_core/solution1/export.tcl&quot;&#xD;&#xA;    (&quot;uplevel&quot; body line 1)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;uplevel 1 hls::main {*}$args&quot;&#xD;&#xA;    (procedure &quot;hls_proc&quot; line 5)&#xD;&#xA;    invoked from within&#xD;&#xA;&quot;hls_proc $argv&quot;&#xD;&#xA;" projectName="pool_core" solutionName="solution1" date="2022-11-06T12:19:11.823+0800"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [SCHED 204-21] The critical path in module 'Pool' consists of the following:&#xD;&#xA;&#x9;'mul' operation of DSP[123] ('ret.V', pool_core/pool_core.cpp:45) [121]  (2.82 ns)&#xD;&#xA;&#x9;'add' operation of DSP[123] ('ret.V', pool_core/pool_core.cpp:45) [123]  (2.73 ns)&#xD;&#xA;&#x9;'add' operation ('ret.V', pool_core/pool_core.cpp:45) [124]  (0 ns)&#xD;&#xA;&#x9;'add' operation ('feature_in2_sum', pool_core/pool_core.cpp:45) [125]  (4.02 ns)" projectName="pool_core" solutionName="solution1" date="2022-11-06T12:17:00.835+0800" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (9.5696ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="pool_core" solutionName="solution1" date="2022-11-06T12:17:00.825+0800" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Pool_ap_uitofp_2_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="pool_core" solutionName="solution1" date="2022-11-06T12:20:03.082+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Pool_ap_fadd_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="pool_core" solutionName="solution1" date="2022-11-06T12:19:57.286+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Pool_ap_uitofp_2_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="pool_core" solutionName="solution1" date="2022-11-06T12:19:10.299+0800" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Pool_ap_fadd_2_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;&#xA;create_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 367.789 ; gain = 45.586" projectName="pool_core" solutionName="solution1" date="2022-11-06T12:19:03.632+0800" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

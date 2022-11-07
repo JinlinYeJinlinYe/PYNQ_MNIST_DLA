@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="pool_core.h" path="C:\Users\JinlinYE\Documents\myProject\my_project_FPGA\HLS\pool_core\pool_core.h"/>
+    <originFiles name="pool_core.cpp" path="C:\Users\JinlinYE\Documents\myProject\my_project_FPGA\HLS\pool_core\pool_core.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="pool_core_tb.cpp" path="C:\Users\JinlinYE\Documents\myProject\my_project_FPGA\HLS\pool_core\pool_core_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
